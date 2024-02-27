@@ -8,7 +8,7 @@ const Home = ({ products, bannerData, categories }) => {
     <div>
       <HeroBanner heroBanner={bannerData.length && bannerData[0]} />
       {categories.map((category, index) => (
-        <div>
+        <div key={index}>
           <div className="products-heading">
             <h2>{category.name}</h2>
             <p>{category.description}</p>
