@@ -136,7 +136,7 @@ const Cart = () => {
             </div> */}
           </div>
         )}
-         <div style={{ marginTop: "0" }}>
+         <div>
               {/* Footer */}
               <Footer />
             </div>

@@ -17,11 +17,12 @@ const Footer = () => {
     width: "70px",
     color: "#1A73E8",
     fontWeight: "bold",
-    marginLeft: "20px"
+    marginLeft: "10px"
   };
 
   const valueStyle = {
     display: "inline-block",
+    fontSize: "13px"
   };
   return (
     <div className="footer-container">
@@ -31,7 +32,7 @@ const Footer = () => {
       </p> */}
       
       <div style={paragraphStyle}>
-      <h3 style={{margin: "20px"}}>Instant Solutions, Same-Day Delivery: Contact Us Now for Swift Service!</h3>
+      <h3 style={{margin: "20px"}}>Get Same-Day Delivery and Serveces: Contact Us Now!</h3>
         <p>
           <span style={labelStyle}>Phone:</span>
           <span style={valueStyle}>0713 553 858</span>
