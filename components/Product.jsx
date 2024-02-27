@@ -17,7 +17,7 @@ const Product = ({ product: { image, video, name, slug, price } }) => {
           {video ? (
             // Render video if it exists controls
             <video
-              width={200}
+              width={150}
               height={300}
               autoPlay
               loop
@@ -32,7 +32,7 @@ const Product = ({ product: { image, video, name, slug, price } }) => {
           ) : (
             <img
               src={urlFor(image && image[0])}
-              width={200}
+              width={150}
               height={300}
               className="product-image"
             />
